@@ -1,0 +1,2873 @@
+.mywrapper, .sliderWrap{
+	display: none !important;
+}
+
+#contacts-container,
+#main-container,
+#products-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  div.DesktopMenu{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+.col-1-5 {
+  padding-bottom: 1% !important;
+}
+  .slide-text-mobile{
+    padding-top: 47% !important;
+  }
+
+  ul.carousel-indicators{
+  	left: 15px;
+  }
+  
+	ul.carousel-indicators li{
+		border-radius: 15px;
+		width: 10px !important;
+		height: 10px !important;
+		border: 1px solid #fff;
+		background-color: transparent;
+	}
+	
+  .mywrapper, .sliderWrap{
+	display: block !important;
+  }
+
+  .about-year-mobile{
+  	margin-top: 40vh;
+  	text-align: center;
+   	font-weight: bold;
+  	font-size: 3rem;
+  	color: rgba(255,255,255, 0.4);
+   }
+
+	.about-text-mobile{
+	 margin: 27.03% 9.4% 13.43% 10.83%;
+	}
+
+	p.about-text-mobile-p{
+	 margin-top: 120px;
+   height: 65vh;
+   overflow: scroll
+	}
+
+	ol.carousel-indicators{
+		left: 0;
+		z-index: 5000;
+	}
+
+  .products-caption{
+    top: 10px;
+    left: 60px;
+    width: 60%;
+    font-size: 0.9rem;
+  }
+
+
+
+ul.navbar-nav{
+  width: 100px;
+}
+
+button.navbar-toggler:focus {
+  outline: 0;
+}
+
+
+ul.navbar-nav li{
+  text-align: right;
+}
+  ul.navbar-nav li a{
+    color: #000;
+    font-weight: bold;
+  }
+
+  nav.navbar {
+    position: absolute;
+    top: 5.575757%;
+    right: 8.66666%;
+    width: 135px;
+  }
+  button.navbar-toggler {
+    position: relative;
+    left: 76px;
+  }
+
+
+
+
+  .productsDeskription{
+    display: block;
+  }
+
+  .productsDeskription h3, .productsDeskription p{
+    font-family: "PT Sans";
+    color: #fff;
+    margin: 0;
+    text-align: left;
+  }
+
+  .productsDeskription h3{
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .productsDeskription p{
+    font-size: 1rem;
+  }
+
+  a.nav-link{
+    padding: 0;
+  }
+
+  .moveDownBtn{
+    background: url('../images/mobile/downArrow.png') no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 17px;
+    border: none;
+    position: absolute;
+    bottom: 23px;
+    left: 45%;
+  }
+
+
+
+/* hamburger animation*/
+
+#nav-icon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  border: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+.navbar-toggler {
+  padding: 0;
+}
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 22px;
+  background: #000;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  margin-top: 4px ;
+}
+    #nav-icon span:nth-child(1) {
+      top: 0px;
+    }
+
+    #nav-icon span:nth-child(2),#nav-icon span:nth-child(3) {
+      top: 6px;
+    }
+
+    #nav-icon span:nth-child(4) {
+      top: 12px;
+    }
+
+    #nav-icon.open span:nth-child(1) {
+      top: 6px;
+      width: 0%;
+      left: 50%;
+    }
+
+    #nav-icon.open span:nth-child(2) {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    #nav-icon.open span:nth-child(3) {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    #nav-icon.open span:nth-child(4) {
+      top: 6px;
+      width: 0%;
+      left: 50%;
+    }
+
+}
+
+/*iPad in portrait*/
+@media only screen 
+and (device-width : 768px) 
+and (device-height : 1024px) 
+and (orientation : portrait){ 
+  
+  .main-top{
+    height: 50%;
+  }
+
+  .main-imgMobile {
+      display: block;
+      max-width: 100%;
+      width: 74%;
+      position: relative;
+      bottom: -26%;
+      left: 12%;
+  }
+  
+  .main-top.mymain-top {
+    height: 264px;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .titleText{
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+  }
+
+  img.main-img{
+    margin-top: 0 !important;
+    bottom: 213px;
+  }
+
+  .main-btn{
+    position: absolute !important;
+    left: 112px;
+    bottom: 113px;
+  }
+
+  p.main-text{
+    top: 183px;
+    left: 110px;
+  }
+
+  .navbar-nav{
+    position: relative;
+    top: 10px;
+    right: 30px;
+  }
+
+  ul.navbar-nav li {
+    width: 120px;
+    text-align: center;
+  }
+
+
+
+  .mobileTitle{
+    left: 40px;
+    top: 5px;
+  }
+  .logo {
+    top: 80px;
+    left: 80px;
+  }
+
+  .two-img{
+    height: 200%;
+    margin-top: -200px;
+  }
+
+  .contactBtn{
+    left: 17% !important;
+  }
+
+  .main-bottom{
+    height: 50%;
+    position: relative;
+  }
+
+  .fp-tableCell{
+    display: table !important;
+  }
+
+  .mobilePortraitOrientation{
+    max-width: 20% !important;
+  }
+
+  img.contactsMobileImg{
+    width: 27% !important;
+  }
+
+  .mainblock{
+    padding-top: 20% !important;
+  }
+  .mobileImgBlock > p {
+    position: relative;
+    /*top: 100px;*/
+    left: 22px;
+  }
+  .callBackButton{
+    width: 500px !important;
+    font-size: 1.5em !important;
+  }
+
+  /*start about page styles*/
+  .aboutPageDesktop{
+    display: none !important;
+  }
+
+  .mobile-img-block{
+      background: url(../images/mobile/slideMobile.jpg) no-repeat center center;
+      background-size: cover;
+      height: 1024px;
+      position: relative;
+    }
+
+    p.slide-text-mobile{
+      font: 1.6rem "PT Sans";
+      color: #fff;
+      text-align: left;
+      padding: 120px 80px;
+    }
+
+    h2.about-year-mobile{
+      /*position: absolute;
+      bottom: 80px;*/
+      margin-top: 28vh;
+      font: bold 10em "PT Sans Caption";
+      color: rgba(255,255,255, 0.4);
+    }
+
+    .aboutContent{
+        margin-left: 65px;
+        margin-top: 181px;
+        padding-top: 0 !important;
+        width: 654px;
+        height: 743px;
+        overflow: scroll;
+    }
+
+    div.about-text-mobile{
+      font-size: 0.56em !important;
+      height: 700px;
+    }
+
+    .moveDownBtn{
+      bottom: 40px !important;
+      left: 48% !important;
+    }
+
+    .intro p{
+      width: 80% !important;
+    }
+
+    /*end about page styles*/
+    .productsDeskription{
+      display: none;
+    }
+
+    .product-img {
+      height: 114px;
+      width: 114px;
+    }
+    .nav-link {
+      color: #000;
+    }
+    .products-caption {
+      position: relative;
+      top: 150px;
+    }
+
+    img.contactsEmailMobileImg {
+      width: 55%;
+      height: 50%;
+    }
+    .titleHidden {
+      float: none;
+      position: relative;
+      top: 27px;
+      left: -195px;
+    }
+    span.mytexts {
+      margin-top: 1%;
+      margin-left: -13%;
+      font-size: 11px;
+    }
+    h2 + span.mytexts {
+      margin-top: 2%;
+      margin-left: 110px;
+    }
+
+/*products page*/
+
+
+
+    .products-caption {
+      position: absolute;
+      left: 60px;
+      top: 170px;
+      width: 594px;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: left;
+      color: #000;
+    }
+
+}
+
+/********************************************************************/
+
+
+
+/**************************************************************/
+
+/* Mobile devices*/
+@media only screen and (max-device-width: 480px) {
+
+    div.mycotainer{
+      position: initial !important;
+      z-index: 30000;
+    }
+
+    #logo{
+      display: none;
+    }
+
+    .main-top{
+      height: 50%; 
+    }
+
+    img.main-img{
+      position: inherit;
+      margin-top: -50% !important;
+      right: 45px;
+    }
+
+
+    p.main-text{
+      padding: 0 15px;
+      color: #000;
+      position: absolute;
+      top: 43%;
+      left: 10.5%;
+      font-size: 9px;
+      text-align: left;
+      line-height: 10px;
+      width: 82%;
+    }
+
+
+   .titleHidden{
+    display: block;
+   }
+
+   .titleHidden{
+    font-size: 3rem;
+   }
+
+   .mytexts{
+    font-size: 1rem;
+   }
+
+   /*products page*/
+   .products-caption{
+    left: 0;
+    top: 80px;
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+   }
+
+   .main-bottom{
+    height: 50%;
+   }
+
+   .fp-tableCell{
+
+   }
+
+   .mymain-top{
+    height: auto !important;
+    padding-left: 0 !important;
+   }
+
+   .s5{
+    width: 50%;
+   }
+
+   .contactsImg{
+    margin: 25px 0;
+    padding: 0 15px !important;
+   }
+
+   p.aboutText{
+    padding-top: 30px;
+   }
+
+   .mobileTitle{
+    display: inline-block;
+   }
+
+   .callBackButton{
+    bottom: 10px !important;
+    /*left: 30px !important;*/
+   }
+
+   .two-block{
+    height: 250px !important;
+   }
+
+   .startYear{
+    font-size: 4rem;
+    right: 20px;
+   }
+}
+
+
+
+
+
+
+/*****************************/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#viewport {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+#slidewrapper {
+    position: relative;
+    height: 668px;
+    width: calc(100% * 3);
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+    -o-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+    transition-timing-function: cubic-bezier(.67,.01,.23,1);
+}
+
+.slide {
+    width: calc(100%/3);
+    height: 100%;
+    list-style: none;
+    display: inline;
+    float: left;
+}
+
+.slide-img {
+    width: 100%;
+    height: 100%;
+}
+
+#prev-btn, #next-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: calc(50% - 25px);
+}
+
+#prev-btn:hover, #next-btn:hover {
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 20px;
+}
+
+#next-btn {
+    right: 20px;
+}
+
+#nav-btns {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.slide-nav-btn {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.slide-nav-btn:hover {
+    cursor: pointer;
+}
+
+
+/* 5 колонок в bootstrap */
+.col-1-5,
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+  position: relative;
+  padding-right: 3.5%;
+  padding-left: 3.5%;
+}
+ 
+
+  .col-1-5 {
+    width: 100%;
+    float: left;
+  }
+ 
+@media (min-width: 567px) {
+  .col-xs-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+  
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+ 
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+/*********************************NEW BOOTSTRAP STYLES  15.02.2018 14-00********************************/
+
+
+
+
+
+
+.carousel-inner,
+.carousel-item,
+.container-fluid,
+.row {
+  height: 100%;
+} 
+
+/* ABOUT PAGE */
+
+.about-text {
+  position: relative;
+  top: 20%;
+  font-size: 1vw;
+  height: 400px;
+  overflow: hidden;
+}
+.about-text-2 {
+  position: relative;
+  top: 20%;
+  font-size: 1vw;
+  height: 400px;
+  width: 50%;
+  overflow: hidden;
+  color: #fff;
+
+}
+.about-year {
+  position: absolute;
+  bottom: 3%;
+  right: 5%;
+  font-size: 5em;
+  color: #fff;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  position: absolute;
+  top: 5%;
+  left: 4.6%;
+}
+
+#nav-block {
+  position: absolute;
+  right: 4%;
+}
+
+.carousel-indicators {
+  margin: 0;
+  position: absolute;
+  left: -83%;
+  bottom: 4%;
+  
+}
+.carousel-indicators li.active {
+  background-color: #00a6ff; 
+}
+.carousel-indicators li {
+  background-color: #bbb; 
+}
+
+
+
+
+
+/* MAIN PAGE*/
+
+.container,
+#main-title-block {
+  height: 100%;
+}
+
+#main-container {
+  width: 100%;
+  height: 100%;
+}
+
+#main-top {
+    position: relative;
+    background: linear-gradient(to right, #1e68ff, #00a6ff);
+    height: 50%;
+    width: 100%;
+}
+
+#main-bottom {
+    position: relative;
+    height: 50%;
+}
+
+#main-title {
+    position: absolute;
+    font-family: 'PTSansBold';
+    font-size: 4em;
+    float: left;
+    color: #000;
+}
+#main-title-2,
+#main-title-3 {
+    display: block;
+    float: left;
+    font: 0.8em sans-serif;
+    color: #000;
+    position: absolute;
+}
+#main-text {
+    position: absolute;
+    font-size: 14px;
+    text-align: left;
+    line-height: 15px;
+    padding: 0;
+}
+
+#main-btn {
+    position: absolute;
+    display: block;
+    border: solid #1e67ff 3px;
+    border: solid #1e67ff 3px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-family: 'PTSansBold';
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav-block {
+  position: absolute;
+}
+
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***************************************/
+/************************************* Start of adaptive design ***xs************************************/
+
+
+@media only screen
+and (max-width: 575.98px) {
+
+/* NAVIGATION AND LOGO */
+.fixed-top {
+  height: 15%;
+}
+.logo {
+    top: 37%;
+    left: 13.6%;
+}
+
+#nav-block {
+  position: absolute;
+  top: 85%;
+  right: 16%;
+}
+ul.navbar-nav {
+  width: unset;
+}
+
+/* MAIN PAGE */
+#main-img {
+  display: none;
+}
+
+#main-img-mobile {
+    width: 80%;
+    display: block;
+    position: absolute;
+    left: 10%;
+    bottom: 8%;
+}
+
+#main-title {
+  font-size: 2.5em;
+  top: 7%;
+  left: 24%;
+}
+#main-title-2 {
+  top: 22%;
+  left: 24%;
+}
+
+#main-title-3 {
+  top: 27%;  
+  left: 24%;
+}
+
+#main-text {
+  top: 38%;
+  left: 11.8%;
+  font-size: 9px;
+  text-align: left;
+  line-height: 10px;
+}
+
+#main-btn {
+  left: 12%;
+  bottom: 7%;
+}
+
+
+
+/*CONTACTS PAGE*/
+
+#contacts-container {
+  height: 100%;
+}
+
+#space {
+  height: 10%;
+}
+
+#contacts {
+    padding-top: 12%;
+    height: 90%;
+}
+
+.contacts-img-mobile {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contacts-img-desktop {
+  display: none; 
+}
+
+.contacts-img {
+	margin: 0 auto;
+	text-align: center;
+  width: 60%;
+}
+
+#address img {
+}
+
+#tel {
+  margin-bottom: 4%;
+}
+
+#email img {
+  width: 80%;
+
+}
+.p-contacts {
+  text-align: center;
+  font-size: 1em;
+}
+
+
+.contacts-btn {
+  display: none;
+}
+
+
+/* PRODUCTS PAGE */
+
+#products-container {
+  height: 100%;
+}
+#products-top {
+  height: 75%;
+  width: 100%; 
+}
+
+#products-bottom {
+  height: 25%;
+  background: linear-gradient(to right, #1e68ff, #00a6ff);
+}
+#products-bottom .row {
+  padding: 1% 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+}
+
+#products-h3 {
+  position: absolute;
+    top: 13%;
+    left: 4.4%;
+    font-family: 'PTSansBold';
+    font-size: 1vw;
+}
+
+
+.product-img {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 5%;
+}
+
+#products-top {
+	height: 25%;
+}
+
+#products-bottom {
+	height: 75%;
+}
+
+#products-bottom .row {
+	width: 95%;
+	padding: 9% 0 0 0;
+}
+
+.col-1-5 {
+	padding-bottom: 8%;
+}
+
+#products-h3 {
+	font-size: 0.8em;
+	top: 17%;
+  left: 9%;
+}
+
+.productsDeskription h3,
+.productsDeskription p
+ {
+	font-family: sans-serif;
+  font-size: 0.7em;
+}
+
+.productsDeskription h3
+ {
+  font-weight: 800;
+ }
+
+
+/* about page */
+.aboutPageDesktop { 
+  display: none;
+}
+
+.about-text-mobile-p{
+    font-size: 0.77em;
+    /*margin-top: 150px;*/
+    text-align: left;
+    padding: 0 15px 25px 15px;
+    height: 490px;
+    overflow: auto;
+}
+
+.mobile-img-block {
+      background: url(../images/mobile/slideMobile.jpg) no-repeat;
+      background-size: cover;
+      height: 100%;
+      position: relative;
+}
+  
+.slide-text-mobile {
+  font-size: 0.7em;
+  line-height: 1.4em;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 35%;
+  width: 80%;
+}
+
+
+.carousel-indicators li.active {
+	background-color: #fff;
+}
+
+} /*******************************   END media only screen and(max-width: 576px)    ****************** ***/
+
+/*******************************   START media only screen and(min-width: 576px)    ***sm*************** ***/
+
+@media only screen
+and (min-width: 576px)
+and (max-width: 767.98px) {
+
+/* NAVIGATION AND LOGO */
+.fixed-top {
+  height: 15%;
+}
+.logo {
+    top: 37%;
+    left: 13.6%;
+}
+
+#nav-block {
+  position: absolute;
+  top: 85%;
+  right: 16%;
+}
+ul.navbar-nav {
+  width: unset;
+}
+
+/* MAIN PAGE */
+#main-img {
+  display: none;
+}
+
+#main-img-mobile {
+    width: 80%;
+    display: block;
+    position: absolute;
+    left: 10%;
+    bottom: 8%;
+}
+
+
+
+#main-text {
+  top: 38%;
+  left: 8%;
+  font-size: 9px;
+  text-align: left;
+  line-height: 10px;
+}
+
+#main-btn {
+  left: 12%;
+  top: 71%;
+}
+
+/*CONTACTS PAGE*/
+
+#contacts-container {
+  height: 100%;
+}
+
+#space {
+  height: 40%;
+}
+
+#contacts {
+  height: 25%;
+}
+
+#contacts-btn-row {
+  margin-top: 5%;
+  height: 35%;
+}
+
+
+
+.contacts-img-mobile {
+  display: none;
+}
+
+.contacts-img-desktop {
+  width: 100%; 
+}
+
+.contacts-img {
+  position: absolute;
+  bottom: 0;
+  padding: 35%;
+}
+
+#address {
+  padding: 0 25%;
+}
+
+#tel {
+  padding: 0 25%;
+}
+#email {
+  padding: 0 20% 0 0;
+}
+
+.p-contacts {
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+
+.contacts-btn {
+  display: none;
+}
+
+
+
+
+/* PRODUCTS PAGE */
+
+#products-container {
+  height: 100%;
+}
+#products-top {
+  height: 75%;
+  width: 100%; 
+}
+
+#products-bottom {
+  height: 25%;
+  background: linear-gradient(to right, #1e68ff, #00a6ff);
+}
+#products-bottom .row {
+  padding: 1% 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+}
+
+#products-h3 {
+  position: absolute;
+    top: 13%;
+    left: 4.4%;
+    font-family: 'PTSansBold';
+    font-size: 1vw;
+}
+
+.productsDeskription {
+	display: none;
+}
+
+
+} /*******************************   END media only screen and(min-width: 576px)    ****************** ***/
+
+
+/*******************************   START media only screen and(min-width: 768px)  PORTRAIT    ***mdp*************** ***/
+
+@media only screen
+and (min-width: 767.98px)
+and (max-width: 991.99px)
+and (orientation: portrait) {
+/* NAVIGATION AND LOGO */
+
+.fixed-top {
+  height: 15%;
+}
+
+.logo {
+    top: 24%;
+    left: 10.4%;
+}
+
+#nav-block {
+    position: absolute;
+    top: 10%;
+    left: -133%;
+}
+
+
+#nav-items li, 
+#nav-items li a {
+    width: 125px;
+    text-align: left;
+}
+
+/* MAIN PAGE */
+#main-bottom {
+  margin-top: 7%;
+}
+#main-img {
+  display: none;
+}
+
+#main-img-mobile {
+  width: 82%;
+  display: block;
+  position: absolute;
+  left: 9%;
+  bottom: 8%;
+}
+
+#main-title {
+    font-size: 5em;
+    top: 1%;
+    left: 12%;
+}
+
+#main-title-2 {
+  top: 18%;
+  font: 1.2em sans-serif;
+  left: 12%;
+}
+
+#main-title-3 {
+  top: 23%;
+  font: 1.2em sans-serif;
+  left: 12%;  
+}
+
+#main-text {
+  top: 35%;
+  left: 10%;
+  font-size: 16px;
+  text-align: left;
+  line-height: 16px;
+}
+
+#main-btn {
+  left: 10%;
+  top: 64%;
+  font-size: 1.6em;
+}
+
+#main-bottom .container {
+  position: absolute;
+  top: 8%;
+}
+
+/*CONTACTS PAGE*/
+
+#contacts-container {
+  height: 100%;
+}
+
+#space {
+  height: 10%;
+}
+
+#contacts {
+  height: 85%;
+}
+
+.contacts-img-mobile {
+  margin: 0 auto;
+  width: 37%;
+}
+
+.contacts-img-desktop {
+  display: none; 
+}
+
+.contacts-img {
+  position: absolute;
+  bottom: 0;
+  margin-left: 39%;
+  width: 60%;
+}
+
+#address img {
+}
+
+#tel {
+  margin-bottom: 4%;
+}
+
+
+#email {
+  margin-left:31%; 
+  margin-bottom: 12%; 
+}
+#email img {
+  width: 60%;
+
+}
+.p-contacts {
+  text-align: left;
+  font-size: 1em;
+}
+
+
+.contacts-btn {
+  display: none;
+}
+
+/* PRODUCTS PAGE */
+
+#products-container {
+  height: 100%;
+}
+
+
+#products-h3 {
+  position: absolute;
+    top: 13%;
+    left: 6.4%;
+    font-family: 'PTSansBold';
+    font-size: 1.3em;
+}
+
+
+.product-img {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 5%;
+}
+
+#products-top {
+	height: 20%;
+	width: 100%; 
+}
+
+#products-bottom {
+	height: 80%;
+	  background: linear-gradient(to right, #1e68ff, #00a6ff);
+}
+
+#products-bottom .row {
+	  margin: 0 auto;
+	width: 95%;
+	padding: 5% 0;
+}
+
+.col-1-5 {
+	padding-bottom: 3%;
+	width: 100%;
+}
+
+.productsDeskription {
+  display: block;
+	padding-top: 1%;
+}
+.productsDeskription h3,
+.productsDeskription p
+ {
+	font-family: sans-serif;
+	font-size: 1.3em;
+}
+.productsDeskription h3
+ {
+  font-weight: 800;
+}
+
+}/***************************   END media only screen and(min-width: 768px)  PORTRAIT     **************************/
+
+
+/*******************************   START media only screen and(min-width: 768px) LANDSCAPE   ***mdl*************** ***/
+
+@media only screen
+and (min-width: 767.98px)
+and (max-width: 991.99px)
+and (orientation: landscape) {
+/* NAVIGATION AND LOGO */
+
+.fixed-top {
+  height: 15%;
+}
+
+.logo {
+    top: 24%;
+    left: 10.4%;
+}
+
+#nav-block {
+    position: absolute;
+    top: 10%;
+    left: -133%;
+}
+
+
+#nav-items li, 
+#nav-items li a {
+    width: 125px;
+    text-align: left;
+}
+
+/* MAIN PAGE */
+#main-bottom {
+  margin-top: 7%;
+}
+#main-img {
+  display: none;
+}
+
+#main-img-mobile {
+  width: 82%;
+  display: block;
+  position: absolute;
+  left: 9%;
+  bottom: 8%;
+}
+
+#main-title {
+    font-size: 5em;
+    top: 1%;
+    left: 12%;
+}
+
+#main-title-2 {
+  top: 18%;
+  font: 1.2em sans-serif;
+  left: 12%;
+}
+
+#main-title-3 {
+  top: 23%;
+  font: 1.2em sans-serif;
+  left: 12%;  
+}
+
+#main-text {
+  top: 35%;
+  left: 10%;
+  font-size: 16px;
+  text-align: left;
+  line-height: 16px;
+}
+
+#main-btn {
+  left: 10%;
+  top: 64%;
+  font-size: 1.6em;
+}
+
+#main-bottom .container {
+  position: absolute;
+  top: 8%;
+}
+
+/*CONTACTS PAGE*/
+
+#contacts-container {
+  height: 100%;
+}
+
+#space {
+  height: 10%;
+}
+
+#contacts {
+  height: 85%;
+}
+
+.contacts-img-mobile {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contacts-img-desktop {
+  display: none; 
+}
+
+.contacts-img {
+  position: absolute;
+  bottom: 0;
+  margin-left: 32%;
+  width: 60%;
+}
+
+#address img {
+}
+
+#tel {
+  margin-bottom: 4%;
+}
+
+
+#email {
+  margin-left:23%; 
+  margin-bottom: 12%; 
+}
+#email img {
+  width: 80%;
+
+}
+.p-contacts {
+  text-align: left;
+  font-size: 1em;
+}
+
+
+.contacts-btn {
+  display: none;
+}
+
+/* PRODUCTS PAGE */
+
+#products-container {
+  height: 100%;
+}
+#products-top {
+  height: 75%;
+  width: 100%; 
+}
+
+#products-bottom {
+  height: 25%;
+  background: linear-gradient(to right, #1e68ff, #00a6ff);
+}
+#products-bottom .row {
+  padding: 1% 0;
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+}
+
+#products-h3 {
+  position: absolute;
+    top: 13%;
+    left: 4.4%;
+    font-family: 'PTSansBold';
+	font-size: 1.5vw;
+}
+
+.col-lg-1-5 {
+	padding: 
+}
+.productsDeskription {
+	display: none;
+}
+
+}/***************************   END media only screen and(min-width: 768px) and (max-width: 991.98px) LANDSCAPE     **************************/
+
+
+/***************************   START media only screen and(min-width: 992px) and (max-width: 1199.98px)  PORTRAIT     ***lgp***********************/
+
+
+@media only screen
+and (min-width: 991.99px)
+and (max-width: 1199.98px)
+and (orientation: portrait)
+{
+/* NAVIGATION AND LOGO */
+
+.fixed-top {
+  height: 15%;
+}
+
+.logo {
+    top: 17%;
+    left: 10%;
+}
+
+#nav-block {
+    position: absolute;
+    top: -16%;
+    right: 5%;
+    font-weight: bold;
+}
+
+
+#nav-items li, 
+#nav-items li a {
+    width: 125px;
+    text-align: left;
+}
+
+/* MAIN PAGE */
+#main-img {
+  display: none;
+}
+#main-bottom {
+  margin-top: 7%;
+}
+
+#main-img-mobile {
+  width: 83%;
+  display: block;
+  position: absolute;
+  left: 8%;
+  bottom: 8%;
+}
+
+
+
+#main-title {
+    font-size: 6em;
+    top: 1%;
+  left: 12%;
+}
+
+#main-title-2 {
+  top: 16%;
+  font: 1.4em sans-serif;
+  left: 12%;
+}
+
+#main-title-3 {
+  top: 20%;
+  font: 1.4em sans-serif; 
+  left: 12%;
+}
+
+#main-text {
+  top: 30%;
+  left: 10%;
+  font-size: 20px;
+  text-align: left;
+  line-height: 20px;
+}
+
+#main-btn {
+  left: 10%;
+  top: 57%;
+  font-size: 2em;
+}
+
+#main-bottom .container {
+  position: absolute;
+  top: 12%;
+}
+
+
+/*CONTACTS PAGE*/
+
+#contacts-container {
+  height: 100%;
+}
+
+#space {
+  height: 10%;
+}
+
+#contacts {
+  height: 75%;
+}
+
+#contacts-btn-row {
+  margin-top: 3%;
+  height: 15%;
+}
+
+
+
+.contacts-img-mobile {
+  display: none;
+}
+
+.contacts-img-desktop {
+  width: 45%; 
+}
+
+.contacts-img {
+  position: absolute;
+  bottom: 0;
+  padding: 35%;
+}
+
+#address {
+    padding: 0px 10%;
+    margin: 0 auto;
+    margin-left: 27%;
+}
+
+#tel {
+    padding: 0px 10%;
+    margin: 0 auto;
+    margin-left: 27%;
+}
+#email {
+    padding: 0px 10%;
+    margin: 0 auto;
+    margin-left: 19%;
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+.p-contacts {
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+
+.contacts-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 1% 0;
+  border: solid #1e67ff 3px;
+  border: solid #1e67ff 3px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-family: 'PTSansBold';
+  text-align: center;
+  font-size: 2vw;
+  color: #1e67ff;
+  width: 35%;
+}
+
+.col-lg-4 {
+	flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.object {
+	bottom: 500px;
+    left: 6px;
+}
+/* PRODUCTS PAGE */
+
+#products-container {
+  height: 100%;
+}
+
+
+#products-h3 {
+  position: absolute;
+    top: 13%;
+    left: 6.4%;
+    font-family: 'PTSansBold';
+    font-size: 1.5em;
+}
+
+
+.product-img {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 5%;
+}
+
+#products-top {
+	height: 20%;
+	width: 100%; 
+}
+
+#products-bottom {
+	height: 80%;
+	  background: linear-gradient(to right, #1e68ff, #00a6ff);
+}
+
+#products-bottom .row {
+	  margin: 0 auto;
+	width: 95%;
+	padding: 5% 0;
+}
+
+.col-1-5 {
+	padding-bottom: 3%;
+	width: 100%;
+}
+
+.productsDeskription {
+	display: block;
+	padding-top: 1%;
+}
+.productsDeskription h3,
+.productsDeskription p
+ {
+ 	color: #fff;
+	font-family: sans-serif;
+	font-size: 1.3em;
+}
+
+.productsDeskription h3
+ {
+  font-weight: 800;
+}
+}/***************************   END media only screen and(min-width: 992px) and (max-width: 1199.98px) PORTRAIT      **************************/
+
+/***************************   START media only screen and(min-width: 992px) and (max-width: 1199.98px) LANDSCAPE     ***lgl**************************/
+
+
+@media only screen
+and (min-width: 992px)
+and (max-width: 1199.98px)
+and (orientation: landscape)
+{
+
+
+/* NAVIGATION AND LOGO */
+.fixed-top {
+  height: 15%;
+}
+.logo {
+    top: -2%;
+    left: 4.3%;
+}
+
+#nav-block {
+    position: absolute;
+    top: -83%;
+    right: 1.2%;
+    font-weight: bold;
+}
+
+#nav-items li, 
+#nav-items li a {
+    width: 125px;
+    text-align: left;
+}
+/* MAIN PAGE*/
+
+#main-bottom {
+  margin-top: 1%;
+}
+#main-img {
+  display: block;
+  position: absolute;
+  width: 83%;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+
+#main-img-mobile {
+  display: none;
+}
+
+
+#main-bottom .container {
+  position: relative;
+  top: 4%;
+  width: 100%;
+}
+
+#main-title {
+  font-size: 4vw;
+  top: 7%;
+}
+
+#main-title-2 {
+  top: 20%;
+  font-size: 1vw;
+}
+
+#main-title-3 {
+
+  top: 24.5%;
+  font-size: 1vw;
+}
+
+#main-text {
+  top: 32%;
+  left: 4.2%;
+  font-size: 1em;
+  line-height: 1em;
+  width: 50%;
+}
+
+#main-btn {
+  font-size: 1.4vw;
+  top: 70%;
+  left: 4.3%;
+}
+
+#main-title-block {
+  left: 4.2%;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACTS PAGE*/
+
+#contacts-container {
+  height: 100%;
+}
+
+#space {
+  height: 40%;
+}
+
+#contacts {
+  height: 25%;
+}
+
+#contacts-btn-row {
+  margin-top: 10%;
+  height: 35%;
+}
+
+
+
+.contacts-img-mobile {
+  display: none;
+}
+
+.contacts-img-desktop {
+  width: 100%; 
+}
+
+.contacts-img {
+  position: absolute;
+  bottom: 0;
+  padding: 35%;
+}
+
+#address {
+  padding: 0 25%;
+}
+
+#tel {
+  padding: 0 25%;
+}
+#email {
+  padding: 0 20% 0 0;
+}
+
+.p-contacts {
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+
+.contacts-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 1% 0;
+  border: solid #1e67ff 3px;
+  border: solid #1e67ff 3px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-family: 'PTSansBold';
+  text-align: center;
+  font-size: 2vw;
+  color: #1e67ff;
+}
+
+.object {
+	bottom: 273px;
+    left: 5px;
+}
+/* PRODUCTS PAGE */
+
+#products-container {
+  height: 100%;
+}
+#products-top {
+  height: 75%;
+  width: 100%; 
+}
+
+#products-bottom {
+  height: 25%;
+  background: linear-gradient(to right, #1e68ff, #00a6ff);
+}
+#products-bottom .row {
+    padding: 2% 0;
+    width: 100%;
+    margin: 0;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+}
+
+#products-h3 {
+  position: absolute;
+    top: 20%;
+    left: 4.4%;
+    font-family: 'PTSansBold';
+    font-size: 2vw;
+}
+
+.productsDeskription {
+	display: none;
+}
+
+}/***************************   END media only screen and(min-width: 992px) and (max-width: 1199.98px) LANDSCAPE     **************************/
+
+
+
+/***************************   START media only screen and(min-width: 1200px)   **************************/
+
+@media only screen
+and (min-width: 1200px)
+{
+
+/* NAVIGATION AND LOGO */
+.fixed-top {
+  height: 15%;
+}
+.logo {
+    top: -2%;
+    left: 4.3%;
+}
+
+#nav-block {
+    position: absolute;
+    top: -83%;
+    right: 1.2%;
+    font-weight: bold;
+}
+
+#nav-items li, 
+#nav-items li a {
+    width: 125px;
+    text-align: left;
+}
+
+
+/* MAIN PAGE*/
+
+#main-bottom {
+  margin-top: 1%;
+}
+#main-img {
+  display: block;
+  position: absolute;
+  width: 83%;
+  bottom: 0.2%;
+  right: 0;
+  z-index: 2;
+}
+
+#main-img-mobile {
+  display: none;
+}
+
+
+#main-bottom .container {
+  position: relative;
+  top: 4%;
+  width: 100%;
+}
+
+#main-title {
+  font-size: 4vw;
+}
+
+#main-title-2 {
+  top: 20%;
+  font-size: 1vw;
+}
+
+#main-title-3 {
+
+  top: 24.5%;
+  font-size: 1vw;
+}
+
+#main-text {
+  top: 32%;
+  left: 4.2%;
+  font-size: 1vw;
+  line-height: 1em;
+}
+
+#main-btn {
+  font-size: 1.4vw;
+  top: 75%;
+  left: 4.3%;
+}
+
+#main-title-block {
+  left: 4.2%;
+  padding: 0;
+}
+
+
+/*CONTACTS PAGE*/
+
+#contacts-container {
+  height: 100%;
+}
+
+#space {
+  height: 40%;
+}
+
+#contacts {
+  height: 25%;
+}
+
+#contacts-btn-row {
+  margin-top: 5%;
+  height: 35%;
+}
+
+
+
+.contacts-img-mobile {
+  display: none;
+}
+
+.contacts-img-desktop {
+  width: 100%; 
+}
+
+.contacts-img {
+  position: absolute;
+  bottom: 0;
+  padding: 35%;
+}
+
+#address {
+  padding: 0 25%;
+}
+
+#tel {
+  padding: 0 25%;
+}
+#email {
+  padding: 0 20% 0 0;
+}
+
+.p-contacts {
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+
+.contacts-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 1% 0;
+  border: solid #1e67ff 3px;
+  border: solid #1e67ff 3px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-family: 'PTSansBold';
+  text-align: center;
+  font-size: 2vw;
+  color: #1e67ff;
+}
+
+.object {
+	 bottom: 250px;
+}
+
+/* PRODUCTS PAGE */
+
+#products-container {
+  height: 100%;
+}
+#products-top {
+  height: 75%;
+  width: 100%; 
+}
+
+#products-bottom {
+  height: 25%;
+  background: linear-gradient(to right, #1e68ff, #00a6ff);
+}
+#products-bottom .row {
+    padding: 1% 0;
+    width: 69%;
+    margin-left: 16%;
+}
+
+.col-lg-1-5 {
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+.product-img {
+  width: 100%;
+  height: auto;
+}
+
+#products-h3 {
+  position: absolute;
+    top: 13%;
+    left: 4.4%;
+    font-family: 'PTSansBold';
+    font-size: 2vw;
+}
+
+
+/*about page */
+
+
+
+}/***************************   END media only screen and(min-width: 1200px)   **************************/
+
+
+
+/*************************  4/3 aspect ratio *************************/
+@media only screen 
+and (aspect-ratio: 4/3) {
+
+#main-top {
+	height: 50%;
+}
+
+#main-bottom {
+	height: 40%;
+}
+
+#main-img {
+	display: none;
+}
+
+#main-img-mobile {
+	display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+
+#main-text{
+	width: 100%;
+	top: 50%;
+} 
+
+.col-lg-10 {
+	max-width: 95%;
+}
+
+#main-btn {
+	top: 90%;
+	font-size: 2vw;
+}
+
+#main-title {
+	font-size: 6vw;	
+}
+
+#main-title-2 {
+	font-size: 1.7vw;
+	top: 27%;
+}
+
+#main-title-3 {
+	top: 33.5%;
+	font-size: 1.7vw;
+}
+
+
+
+/** PRODUCTS PAGE */ 
+
+#products-top {
+	height: 78%;
+}
+#products-bottom {
+	height: 22%;
+}
+
+#products-h3 {
+	font-size: 1.5vw;
+}
+
+
+
+}/*********** END 4/3 aspect ratio *************************/
+
+/* start 1280x900 and >*/
+
+@media only screen
+and (max-width: 1280px) and (min-height: 800px){
+  #main-img {
+  display: none;
+  }
+
+  #main-img-mobile {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+    width: 60%;
+  }
+
+  .col-lg-10{
+    max-width: 90%;
+  }
+
+  #main-text, #main-title-2, #main-title-3{
+    font-size: 1.5rem;
+  }
+}
+
+/*end 1280x900 and >*/
+
+/*************************  iPad landscape *************************/
+@media only screen 
+and (device-width: 1024px)
+and (device-height: 768px)
+and (orientation: landscape) {
+
+#main-top {
+	height: 50%;
+}
+
+#main-bottom {
+	height: 40%;
+}
+
+#main-img {
+	display: none;
+}
+
+#main-img-mobile {
+	display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+
+#main-text{
+	width: 100%;
+	top: 50%;
+} 
+
+.col-lg-10 {
+	max-width: 95%;
+}
+
+#main-btn {
+	top: 90%;
+	font-size: 2vw;
+}
+
+#main-title {
+	font-size: 6vw;	
+}
+
+#main-title-2 {
+	font-size: 1.7vw;
+	top: 27%;
+}
+
+#main-title-3 {
+	top: 33.5%;
+	font-size: 1.7vw;
+}
+
+
+
+/** PRODUCTS PAGE */ 
+
+#products-top {
+	height: 78%;
+}
+#products-bottom {
+	height: 22%;
+}
+
+#products-h3 {
+	font-size: 1.5vw;
+}
+
+
+
+}/*********** END IPAD  LANDSCAPE *************************/
+
+
+
+
+/*************************  iPad PRO landscape *************************/
+@media only screen 
+and (device-width: 1366px)
+and (device-height: 1024px)
+and (orientation: landscape) {
+
+#main-top {
+	height: 50%;
+}
+
+#main-bottom {
+	height: 40%;
+}
+
+#main-img {
+	display: none;
+}
+
+#main-img-mobile {
+	display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+    width: 71%;
+}
+
+
+#main-text{
+	width: 100%;
+	top: 50%;
+	font-size: 1.8vw;
+} 
+
+.col-lg-10 {
+	max-width: 95%;
+}
+
+#main-btn {
+	top: 90%;
+	font-size: 2vw;
+}
+
+#main-title {
+	top: 7%;
+	font-size: 6vw;	
+}
+
+#main-title-2 {
+	font-size: 1.8vw;
+	top: 27%;
+}
+
+#main-title-3 {
+	top: 33.5%;
+	font-size: 1.8vw;
+}
+
+
+/** PRODUCTS PAGE */ 
+
+#products-top {
+	height: 84%;
+}
+#products-bottom {
+	height: 16%;
+}
+
+#products-h3 {
+	font-size: 1.5vw;
+}
+
+
+/** contacts page */ 
+
+#contacts-btn-row {
+	margin-top: 11%;
+}
+
+.object {
+	 bottom: 380px;
+}
+}/*********** END IPAD PRO LANDSCAPE *************************/
+
+
+
+/*************************  2560/1440 aspect ratio *************************/
+@media only screen 
+and (aspect-ratio: 2560/1440) {
+/* main page*/
+#main-img {
+	width: 98%;
+}
+
+#main-text {
+	width: 30%;
+}
+
+#main-title {
+	top: 5%;
+}
+/* products page*/
+#products-bottom .row {
+    padding: 2% 0;
+}
+/* contacts page */
+#contacts-btn-row {
+	margin-top: 8%;
+}
+
+.object {
+	left: 30%;
+	bottom: 650px;
+}
+
+}/************ END 2560/1440 aspect ratio ******************/
+
+
+
+/*************************  5/4 aspect ratio *************************/
+@media only screen 
+and (aspect-ratio: 5/4) {
+/**main page */
+#main-img {
+	display: none;
+}
+
+#main-img-mobile {
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: 28%;
+    width: 60%; 
+}
+
+#main-text {
+	top: 36%;
+	width: 80%;
+	font-size: 1.6vw;
+}
+
+#main-title-2 {
+	top: 18%;
+	font-size: 2vw;
+}
+#main-title-3 {
+	top: 22.5%;
+	font-size: 2vw;
+}
+#main-title {
+	top: 5%;
+	font-size: 5vw;
+}
+
+#main-btn {
+	font-size: 2vw;
+}
+.col-xl-5 {
+	max-width: 80%;
+	flex: 0 0 100%;
+}
+
+/** products page **/
+
+#products-bottom .row {
+    padding: 3.5% 0;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/*contacts page */
+#contacts-btn-row {
+	margin-top: 12%;
+}
+
+.object {
+	bottom: 400px;
+	left: 11%;
+}
+
+}/************ END 5/4 aspect ratio ******************/
+
+
+/*************************  8/5 aspect ratio *************************/
+@media only screen 
+and (aspect-ratio: 8/5) {
+/**main page */
+#main-img {
+	display: block;
+    position: absolute;
+    width: 96%;
+    top: 7.5%;
+}
+
+#main-img-mobile {
+	display: none;
+}
+
+#main-text {
+	top: 33%;
+	width: 80%;
+	font-size: 1.2vw;
+}
+
+#main-title-2 {
+	top: 18%;
+	font-size: 2vw;
+}
+#main-title-3 {
+	top: 23%;
+	font-size: 2vw;
+}
+#main-title {
+	top: 3%;
+	font-size: 5vw;
+}
+
+#main-btn {
+	top: 73%;
+	font-size: 2vw;
+}
+.col-xl-5 {
+	max-width: 28%;
+	flex: 0 0 28%;
+}
+
+/** products page **/
+
+#products-bottom .row {
+	padding: 1.5% 0;
+    width: 86%;
+    margin-left: 7%;
+}
+
+/*contacts page */
+#contacts-btn-row {
+	margin-top: 10%;
+}
+
+.object {
+	bottom: 315px;
+	left: 15%;
+}
+
+}/************ END 8/5 aspect ratio ******************/
+
+/*1440x800*/
+
+@media only screen and (min-width: 1440px) and (min-height: 800px) {
+	#main-img{
+		bottom: 7.2%;
+	}
+
+	#main-btn{
+		top: 62%;
+	}
+}
+
+/*2560x1440*/
+
+@media only screen and (min-width: 2560px) and (min-height: 1440px) {
+	#main-img{
+		bottom: 0.2%;
+	}
+
+	#main-btn{
+		top: 75%;
+	}
+}
+
+
+/*iPhone 4 portrait */
+@media screen and (device-width: 320px) and (device-height: 480px){
+
+  #main-title{
+    font-size: 2rem;
+  }
+
+  #main-text{
+    top: 35%;
+  }
+
+  .slide-text-mobile{
+    padding-top: 30% !important;
+  }
+
+  .about-year-mobile{
+    margin-top: 35vh;
+  }
+
+  #products-bottom .row{
+    padding: 5% 0 0 0;
+  }
+
+  .product-img{
+    width: 15%;
+   
+  }
+
+  .contacts-img{
+    margin: 0 auto !important;
+    width: 60%;
+    position: initial;
+    bottom: initial;
+    text-align: center;
+  }
+
+  .p-contacts{
+    text-align: center;
+  }
+
+  .logo{
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+/*@media only screen 
+and (device-width: 1366px) and (device-height: 768px) {
+  
+}*/
+
+/* (1366x768) WXGA Display */
+/*@media  screen and (max-width: 1366px) {
+  #main-top{
+    height: 49%;
+  }
+
+  #main-btn{
+    top: 73%;
+  }
+
+  #products-bottom{
+    padding-top: 15px;
+  }  
+}*/
+
+
+@media only screen 
+and (max-width: 1024px) and (min-height: 600px) {
+
+  #main-img {
+    display: none;
+  }
+
+  #main-img-mobile {
+    display: block;
+      margin: 0 auto;
+      padding-top: 1%;
+  }
+
+}
+
+
+
+@media only screen 
+and (max-width: 320px)
+and (max-height: 450px) {
+
+#products-h3 {
+    font-size: 0.8em;
+    top: 19%;
+    left: 6%;
+}
+
+#products-top {
+    height: 27%;
+}
+#products-bottom {
+    height: 73%;
+}
+
+
+#products-bottom .row {
+    width: 95%;
+    padding: 3% 0 0 0;
+}
+
+#main-title-2 {
+	top: 24%;
+}
+
+#main-title-3 {
+	top: 29%;
+}
+
+#main-btn {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#contacts-bottom {
+	min-height: 359px;
+}
+
+.contacts-img-mobile {
+	width: 42%;
+}
+
+#email img {
+	width: 70%;
+}
+
+}

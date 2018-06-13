@@ -1,0 +1,236 @@
+/*iPad Pro portrait*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5)  {
+
+    ol.carousel-indicators {
+      left: 0;
+      z-index: 5000;
+    }
+
+    ol.carousel-indicators li{
+      border-radius: 15px;
+      width: 15px !important;
+      height: 15px !important;
+      border: 1px solid #fff;
+      background-color: transparent;
+    }
+
+  .iPadProPort{
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 350px;
+    flex: initial !important;
+  }
+
+  .intro img{
+    height: 300px !important;
+  }
+
+.contactBtn {
+    left: 35% !important;
+}
+  .mobilePortraitOrientation{
+    flex: 0 0 20.666667% !important;
+  }
+
+  .main-top.mymain-top {
+    height: 446px;
+  }
+
+  .mymain-top{
+    padding-top: 0;
+  }
+
+  .product-img{
+    height: 162px !important;
+  }
+  
+  /*start about page styles*/
+  
+  .mywrapper{
+    display: block !important;
+  }
+
+  .sliderWrap{
+    display: block !important;
+  }
+
+  .aboutPageDesktop{
+    display: none !important;
+  }
+
+  .mobile-img-block{
+      background: url(../images/mobile/slideMobile.jpg) no-repeat center center;
+      background-size: cover;
+      height: 1366px;
+      position: relative;
+    }
+
+    p.slide-text-mobile{
+      font: 1.6rem "PT Sans";
+      color: #fff;
+      text-align: left;
+      padding: 120px 80px;
+    }
+
+    h2.about-year-mobile{
+      /*position: absolute;
+      bottom: 80px;*/
+      margin-top: 45vh;
+      font: bold 10em "PT Sans Caption";
+      color: rgba(255,255,255, 0.4);
+      text-align: center;
+    }
+
+    .about-text-mobile-p{
+        margin-left: 65px;
+        margin-top: 181px;
+        padding-top: 0 !important;
+        /*width: 654px;*/
+        /*height: 743px;*/
+        overflow: scroll;
+        font-size: 2em !important;
+    }
+
+    .moveDownBtn{
+      /*bottom: 40px !important;
+      left: 48% !important;*/
+      background: url(../images/mobile/downArrow.png) no-repeat;
+      background-size: cover;
+      width: 60px;
+      height: 35px;
+      border: none;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .intro p{
+      width: 80% !important;
+    }
+
+    .about-text-mobile{
+      margin-left: 42px;
+      margin-top: 4px;
+      padding-top: 0 !important;
+      width: 932px;
+      height: 95vh;
+      overflow: scroll;
+    }
+
+    /*end about page styles*/
+
+  ul.navbar-nav li {
+    width: 120px;
+    text-align: center;
+  }
+
+    img.main-img{
+      display: none;
+    }
+
+    .main-imgMobile{
+      display: block;
+      max-width: 100%;
+      width: 74%;
+      position: relative;
+      bottom: -27%;
+      left: 12%;
+    }
+
+
+#section0 img, #section1 img {
+    margin: 0;
+}
+    .main-top{
+      height: 650px;
+    }
+
+    .iPadPro{
+      height: 690px !important;
+    }
+
+  .titleText{
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+  }
+    .titleHidden {
+      float: none;
+      position: relative;
+      top: 27px;
+      left: -195px;
+    }
+    span.mytexts {
+      margin-top: 1%;
+      margin-left: -13%;
+      font-size: 11px;
+    }
+    h2 + span.mytexts {
+      margin-top: 2%;
+      margin-left: 110px;
+    }
+
+/*products page*/
+
+
+
+    .main-top.mymain-top .container .row {
+      padding-top: 25px;
+      margin-left: -3px;
+      width: 1123px;
+    }
+    .products-caption {
+      position: absolute;
+      left: 60px;
+      top: 170px;
+      width: 594px;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: left;
+      color: #000;
+    }
+/**/
+      .contactsImg img {
+        width: 25%;
+        height: auto !important;
+      }
+      #emailFromDB + img {
+        width: 45%;
+        height: auto !important;
+      }
+      .titleHidden {
+        font-family: 'PTSansBold';
+        font-size: 4em;
+        color: #000;
+        float: none;
+        position: relative;
+        top: 37px;
+        left: -353px;
+      }
+      span.mytexts:nth-of-type(1) {
+        color: #000;
+        margin-top: 20px;
+        margin-left:  80px;
+        font-family: 'PTSansBold';
+        font-size: 20px;
+      }
+      span.mytexts:nth-of-type(2) {
+        color: #000;
+        margin: 20px 0px 0px -175px;
+        font-family: 'PTSansBold';
+        font-size: 20px;
+      }
+      .main-text {
+        position: absolute;
+        top: 213px;
+        left: 80px;
+        width: 800px;
+        font-size: 26px;
+        text-align: left;
+        line-height: 27px;
+    }
+}

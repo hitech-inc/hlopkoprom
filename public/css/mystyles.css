@@ -1,0 +1,285 @@
+.headerBackground{
+	max-width: 100%;
+	width: 100%;
+	height: 285px;
+	background-color: #1280FF;
+}
+
+h2.contactsText{
+	margin-top: 15px;
+	margin-left: 52px;
+	font-size: 1.5em;
+	font-family: "PT Sans Caption";
+	font-weight: bold;
+}
+
+h2.myNumber{
+	margin-top: 15px;
+	margin-left: 100px;
+	font-size: 1.5em;
+	font-family: "PT Sans Caption";
+	font-weight: bold;
+}
+
+.callBack{
+	margin: 60px auto;
+	text-align: center;
+}
+
+.callBackButton{
+	background-color: #fff;
+	box-shadow: none;
+	width: 300px;
+	padding: 5px;
+	border-radius: 8px;
+	margin: 0 auto;
+	border: 2px solid #1E67FF; 
+	color: #1E67FF;
+	font-family: "PT Sans Caption";
+	font-weight: bolder;
+	font-size: 16px;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: absolute;
+	bottom: 50px;
+	left: 40%;
+}
+
+h1.mytitle{
+	font-family: "PT Sans Caption"; 
+}
+
+div.headerContainer{
+	position: absolute;
+	top: 40px;
+	right: 0;
+	z-index: 3000;
+}
+
+.titleText{
+	display: block;
+	position: absolute;
+	top: 120px;
+	left: 0;
+}
+
+.titleHidden{
+	float: left;
+	font: bold 4rem "PT Sans Caption";
+	color: #fff;
+}
+
+.mytexts{
+	display: block;
+	float: left;
+	font: 1.5rem "PT Sans Caption";
+	color: #fff;
+	padding-top: 5px;
+	margin-left: 10px;
+}
+
+span:nth-of-type(1){
+	margin-top: 5px;
+}
+
+span:nth-of-type(2){
+	margin-top: -5px;
+}
+
+p.aboutText{
+	text-align: left;
+	font-size: 14px;
+	padding-top: 100px;
+}
+
+.two-img{
+	position: relative;
+}
+
+.startYear{
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+	font: bold 7rem "PT Sans Caption";
+	color: rgba(255,255,255, 0.4);
+}
+
+.bBottom{
+	border-bottom: 4px solid #1084FF;
+}
+
+.myintro, .main-bottom{
+	background-color: #ECE9D8 !important;
+}
+
+span.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #83cbff;
+  margin-top: 5px !important;
+}
+
+span.icon-bar:nth-of-type(3){
+	margin-bottom: 5px;
+}
+
+.mobileTitle{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	display: none;
+	color: #1F79FE;
+	margin-bottom: 15px;
+	z-index: 3000;
+	background-color: transparent;
+}
+
+.mobileTitle h3{
+	margin-bottom: 0;
+}
+
+
+.mobileTitle:active,
+.mobileTitle:visited,
+.mobileTitle:focus,
+.mobileTitle:hover
+{
+	color: #1F79FE;
+	text-decoration: none;
+}
+
+/*.img{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 200px;
+	height: 130px;
+}*/
+
+/*.img1{
+	background-image: url(../images/contactsAddress.png);
+}
+
+.img2{
+	background-image: url(../images/contactsPhone.png);
+}
+
+.img3{
+	background-image: url(../images/contactsEmail.png);
+}
+
+.col-lg-4{
+	
+}*/
+
+/*for mobile phones*/
+
+@media only screen and (max-width: 768px) {
+    /*[class*="col-"] {
+        width: 100%;
+    }*/
+
+    div.mycotainer{
+    	position: initial !important;
+    	z-index: 30000;
+    }
+
+    #logo{
+    	display: none;
+    }
+
+    .main-top{
+    	height: 200px;
+    }
+
+    img.main-img{
+    	position: inherit;
+    	margin-top: -50% !important;
+    	right: 45px;
+    }
+
+    p.main-text{
+    	left: 0;
+    	padding: 0 15px;
+    	width: 100%;
+    }
+
+   .main-btn{
+   	left: 32%;
+   	bottom: -100px;
+   }
+
+   .titleHidden{
+   	display: block;
+   }
+
+   .titleText{
+   	top: 0;
+   	left: 30px;
+   }
+
+   .titleHidden{
+   	font-size: 3rem;
+   	color: ;
+   }
+
+   .mytexts{
+   	font-size: 1rem;
+   }
+
+   /*products page*/
+   .products-caption{
+   	left: 0;
+   	top: 40px;
+   	width: 100%;
+   	padding: 15px;
+   	font-size: 22px;
+   }
+
+   .main-bottom{
+   	height: 210px;
+   }
+
+   .fp-tableCell{
+   	display: table;
+   }
+
+   .mymain-top{
+   	height: auto !important;
+   	padding-left: 0 !important;
+   	padding: 50px 0;
+   }
+
+   .s5{
+   	width: 50%;
+   }
+
+   .contactsImg{
+   	margin: 25px 0;
+   	padding: 0 15px !important;
+   }
+
+   p.aboutText{
+   	padding-top: 30px;
+   }
+
+   .mobileTitle{
+   	/*display: inline-block;*/
+   }
+
+   .callBackButton{
+   	bottom: 0 !important;
+   	left: 30px !important;
+   }
+
+   .two-block{
+   	height: 250px !important;
+   }
+
+   .startYear{
+   	font-size: 4rem;
+   	right: 20px;
+   }
+}
+

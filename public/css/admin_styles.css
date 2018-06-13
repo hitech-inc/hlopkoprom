@@ -1,0 +1,118 @@
+.container {
+	font-size: 12px;
+}
+
+.btn.btn-primary.button {
+	float: right;
+	font-size: 12px;
+	margin-bottom: 10px;
+} 
+
+#navbarSupportedContent {
+	font-size: 12px;
+} 
+
+
+#admin-table {
+	font-size: 11px;
+}
+
+.admin-table-data {
+	font-size: 10px;
+}
+
+.admin-table-data th {
+	font-size: 14px;
+	text-align: center;
+}
+
+
+.deleteButton {
+	position: relative;
+	top: -22px;
+	left: 24px;
+	background: url('../images/icons/delete.png') center no-repeat;
+	background-color: red;
+	background-size: contain;
+	padding: 0;
+	width: 22px;
+	height: 22px;
+}
+
+.editButton {
+	display: inline-block;
+	background: url('../images/icons/edit.png') center no-repeat;
+	background-color: #ccc;
+	background-size: contain;
+	padding: 0;
+	margin-right: 24px;
+	width: 22px;
+	height: 22px;
+}
+
+.editButtonMain {
+	display: inline-block;
+	background: url('../images/icons/edit.png') center no-repeat;
+	background-color: #ccc;
+	background-size: contain;
+	padding: 0;
+	width: 22px;
+	height: 22px;
+}
+
+#short,
+#year,
+#text,
+label,
+button {
+	font-size: 12px;
+}
+
+
+textarea#short {
+	min-height: 150px;
+	max-height: 150px;
+}
+
+textarea#text {
+	min-height: 250px;
+}
+
+.uploadButton {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.imageUpload {
+	margin-top: 10px;
+}
+
+#textareaProduct {
+	border: 0px solid #000;
+	width: 50%;
+	min-height: 55px;
+	max-height: 70px;
+	padding: 2px;
+}
+
+label {
+	font-weight: bold;
+}
+
+textarea + button.editButton {
+	display: none;
+	padding-top: 2px;
+	margin-left: 5px;
+	width: 55px;
+	height: 55px;
+}
+
+
+#phone {
+	display: block;
+	width: 170px;  
+	padding: .375rem .75rem; 
+	border-radius: 5px;
+	border: 1px solid #ced4da;
+	font-size: 1rem;
+}

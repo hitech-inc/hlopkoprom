@@ -1,0 +1,226 @@
+@media screen and (max-width: 991px) {
+
+	/*.prodDesktop{
+		display: none;
+	}
+
+	.prodMobile{
+		display: block;
+	}*/
+
+	#main, .wrapperAbout, .wrapperProducts, .contactsWrapper{
+		margin-left: 0;
+		padding: 2% 10%;
+	}
+
+	#main{
+		background-position: -1300px 0;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.sidenav{
+		display: none;
+	}
+
+	.mobileSidenav{
+		display: block;
+	}
+
+	.mobileMenu a {
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 1rem;
+    /* color: #818181; */
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 25px;
+  }
+
+	.sidenavBackground{
+		display: block;
+	}
+
+	/*#mySidenav{
+		background-color: transparent;
+	}*/
+
+	.serachBlock{
+		position: fixed;
+		top: 15px;
+		right: 15px;
+		width: 200px;
+	}
+
+	.companyTitle{
+		margin-top: 70px;	
+	}
+
+	.contentText{
+		font-size: 0.85rem;
+		margin-bottom: 15px;	
+	}
+
+	.svyazatsya{
+		width: 50%;
+		margin-top: 10px;
+	}
+
+	.rombBlocks{
+		margin-right: 0;
+		position: initial;
+		margin-bottom: -50px;
+	}
+
+	.rombBlockThree, .rombBlockFour{
+		height: 120px;
+	}
+
+	.romb1, 
+	.romb2, 
+	.romb3, 
+	.romb4, 
+	.romb5, 
+	.romb6, 
+	.romb7{
+		border: 5px solid #fff;
+	}
+
+	.romb1, .romb2, .romb3{
+		width: 80px;
+		height: 80px;
+	}
+
+	.romb2{
+		margin-right: 50px;
+	}
+
+	.romb4{
+		width: 60px;
+		height: 60px;
+		vertical-align: 35px;
+		margin-right: 60px;
+	}
+
+	.romb5{
+		margin-right: 50px;
+		width: 110px;
+		height: 110px;
+	}
+
+	.romb6, .romb7{
+		width: 110px;
+		height: 110px;
+	}
+
+	.romb6{
+		margin-right: 70px;
+	}
+
+	.romb7{
+		margin-right: -40px;
+	}
+
+	.callBackButton{
+		position: initial;
+		font-size: 0.95rem;
+	}
+
+	.contactRow{
+		margin-top: 0;
+	}
+
+	.contMobileImg{
+		width: 50%;
+	}
+
+	.mailMobile{
+		width: 100%;
+	}
+
+	input.btns{
+		font-size: 1.3rem ;
+	}
+
+	/*.desktopAboutPage{
+		display: none;
+	}*/
+
+	.callBackwrapper{
+		margin-bottom: 15px;
+	}
+
+	/*mobile menus*/
+	#mMenuOpenBtn{
+		display: block;
+		position: fixed;
+		top: 25px;
+		left: 35px;
+		z-index: 999;
+	}
+
+	.mMenu{
+		background-repeat: no-repeat;
+		font-size: 1.7rem;
+		color: #fff;
+		font-family: "DinPro";
+		opacity: 0;
+		/*visibility: hidden;*/
+	}
+
+	/*About page*/
+
+	.carousel{
+		height: 100%;
+	}
+	
+	.wrapperAbout{
+		background-position: -1100px 0;
+		background-size: cover;
+		overflow: visible;
+		height: 1850px;
+	}
+
+	.containerFirst{
+		width: 100%;
+		float: initial;
+		padding-right: 0;
+	}
+
+	.containerTwo{
+		width: 100%;
+		float: initial;
+		margin-top: 30px;
+		height: 450px;
+	}
+
+	.year{
+		font-size: 2.5rem;
+	}
+
+	.aboutSliderText{
+		font-size: 1rem;
+	}
+
+	ol.carousel-indicators{
+		bottom: 0 !important;
+	}
+
+	/*Products page*/
+	.wrapperProducts{
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0 0;
+	}
+
+	.prodImg{
+		margin: 35px auto;
+	}
+
+	.prodImgsWrap .col-12{
+		margin-bottom: 25px;
+	}
+}
